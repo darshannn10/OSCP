@@ -2,17 +2,17 @@ Kali Linux - Basics
 ========================================================================================================
 
 -   Set the Target IP Address to the `$ip` system variable  
-    `export ip=192.168.1.100`
+    `export ip=192.168.1.1`
 
 -   Find the location of a file  
-    `locate sbd.exe`
+    `locate abc.exe`
 
 -   Search through directories in the `$PATH` environment variable  
-    `which sbd`
+    `which abc`
 
 -   Find a search for a file that contains a specific string in it’s
     name:  
-    `find / -name sbd\*`
+    `find / -name abc\*`
 
 -   Show active internet connections  
     `netstat -lntp`
@@ -35,7 +35,7 @@ Kali Linux - Basics
     `systemctl stop ssh`
 
 -   Unzip a gz file  
-    `gunzip access.log.gz`
+    `gunzip file.log.gz`
 
 -   Unzip a tar.gz file  
     `tar -xzvf file.tar.gz`
@@ -44,10 +44,10 @@ Kali Linux - Basics
     `history | grep phrase_to_search_for`
 
 -   Download a webpage  
-    `wget http://www.cisco.com`
+    `wget http://www.google.com`
 
 -   Open a webpage  
-    `curl http://www.cisco.com`
+    `curl http://www.google.com`
 
 -   String manipulation
 
